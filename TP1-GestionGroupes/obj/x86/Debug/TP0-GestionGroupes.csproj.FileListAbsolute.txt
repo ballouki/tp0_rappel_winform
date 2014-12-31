@@ -1,0 +1,24 @@
+E:\Formations\Plate Form .Net\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\bin\Debug\TP1-GestionGroupes.exe
+E:\Formations\Plate Form .Net\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\bin\Debug\TP1-GestionGroupes.pdb
+E:\Formations\Plate Form .Net\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Formations\Plate Form .Net\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1_GestionGroupes.Form1.resources
+E:\Formations\Plate Form .Net\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1_GestionGroupes.PackageGroupe.FormGestionGroupes.resources
+E:\Formations\Plate Form .Net\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1_GestionGroupes.PackageGroupe.FormGroupe.resources
+E:\Formations\Plate Form .Net\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1_GestionGroupes.PackageGroupe.FormGroupeUpdate.resources
+E:\Formations\Plate Form .Net\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1_GestionGroupes.Properties.Resources.resources
+E:\Formations\Plate Form .Net\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Formations\Plate Form .Net\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Formations\Plate Form .Net\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1-GestionGroupes.exe
+E:\Formations\Plate Form .Net\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1-GestionGroupes.pdb
+C:\Users\ESSARRAJ\Desktop\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1-GestionGroupes.exe
+C:\Users\ESSARRAJ\Desktop\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1-GestionGroupes.pdb
+C:\Users\ESSARRAJ\Desktop\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\bin\Debug\TP1-GestionGroupes.exe
+C:\Users\ESSARRAJ\Desktop\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\bin\Debug\TP1-GestionGroupes.pdb
+C:\Users\ESSARRAJ\Desktop\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1_GestionGroupes.Form1.resources
+C:\Users\ESSARRAJ\Desktop\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1_GestionGroupes.PackageGroupe.FormGestionGroupes.resources
+C:\Users\ESSARRAJ\Desktop\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1_GestionGroupes.PackageGroupe.FormGroupe.resources
+C:\Users\ESSARRAJ\Desktop\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1_GestionGroupes.PackageGroupe.FormGroupeUpdate.resources
+C:\Users\ESSARRAJ\Desktop\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP1_GestionGroupes.Properties.Resources.resources
+C:\Users\ESSARRAJ\Desktop\Module Client Serveur\TPs\TP0\TP1-GestionGroupes\TP1-GestionGroupes\obj\x86\Debug\TP0-GestionGroupes.csproj.GenerateResource.Cache
+C:\Users\ESSARRAJ\Documents\app-client-serveur-labs\tp0_rappel_winform\TP1-GestionGroupes\obj\x86\Debug\TP1-GestionGroupes.exe
+C:\Users\ESSARRAJ\Documents\app-client-serveur-labs\tp0_rappel_winform\TP1-GestionGroupes\obj\x86\Debug\TP1-GestionGroupes.pdb

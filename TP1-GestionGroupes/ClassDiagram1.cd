@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TP1_GestionGroupes.PackageGroupe.GestionGroupes">
+    <Position X="1.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAEAAAAAARAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>PackageGroupe\GestionGroupes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP1_GestionGroupes.PackageGroupe.Groupe">
+    <Position X="3.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>PackageGroupe\Groupe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

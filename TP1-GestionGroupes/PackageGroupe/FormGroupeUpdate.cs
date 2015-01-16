@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace TP1_GestionGroupes.PackageGroupe
+namespace PackageGroupe
 {
     public partial class FormGroupeUpdate : Form
     {
@@ -28,6 +28,11 @@ namespace TP1_GestionGroupes.PackageGroupe
             g.Id = int.Parse(idTextBox.Text);
             g.Nom = nomTextBox.Text;
             GestionGroupes.MiseAJour(g);
+        }
+
+        private void FormGroupeUpdate_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

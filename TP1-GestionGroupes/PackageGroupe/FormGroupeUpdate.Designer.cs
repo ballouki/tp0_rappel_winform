@@ -32,8 +32,8 @@
             System.Windows.Forms.Label idLabel;
             System.Windows.Forms.Label nomLabel;
             this.idTextBox = new System.Windows.Forms.TextBox();
-            this.nomTextBox = new System.Windows.Forms.TextBox();
             this.groupeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.nomTextBox = new System.Windows.Forms.TextBox();
             this.btMiseAjour = new System.Windows.Forms.Button();
             idLabel = new System.Windows.Forms.Label();
             nomLabel = new System.Windows.Forms.Label();
@@ -49,14 +49,6 @@
             idLabel.TabIndex = 1;
             idLabel.Text = "Id:";
             // 
-            // idTextBox
-            // 
-            this.idTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.groupeBindingSource, "Id", true));
-            this.idTextBox.Location = new System.Drawing.Point(92, 71);
-            this.idTextBox.Name = "idTextBox";
-            this.idTextBox.Size = new System.Drawing.Size(100, 20);
-            this.idTextBox.TabIndex = 2;
-            // 
             // nomLabel
             // 
             nomLabel.AutoSize = true;
@@ -66,6 +58,18 @@
             nomLabel.TabIndex = 3;
             nomLabel.Text = "Nom:";
             // 
+            // idTextBox
+            // 
+            this.idTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.groupeBindingSource, "Id", true));
+            this.idTextBox.Location = new System.Drawing.Point(92, 71);
+            this.idTextBox.Name = "idTextBox";
+            this.idTextBox.Size = new System.Drawing.Size(100, 20);
+            this.idTextBox.TabIndex = 2;
+            // 
+            // groupeBindingSource
+            // 
+            this.groupeBindingSource.DataSource = typeof(TP1_GestionGroupes.PackageGroupe.Groupe);
+            // 
             // nomTextBox
             // 
             this.nomTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.groupeBindingSource, "Nom", true));
@@ -73,10 +77,6 @@
             this.nomTextBox.Name = "nomTextBox";
             this.nomTextBox.Size = new System.Drawing.Size(100, 20);
             this.nomTextBox.TabIndex = 4;
-            // 
-            // groupeBindingSource
-            // 
-            this.groupeBindingSource.DataSource = typeof(TP1_GestionGroupes.PackageGroupe.Groupe);
             // 
             // btMiseAjour
             // 
@@ -100,6 +100,7 @@
             this.Controls.Add(this.nomTextBox);
             this.Name = "FormGroupeUpdate";
             this.Text = "FormGroupeUpdate";
+            this.Load += new System.EventHandler(this.FormGroupeUpdate_Load);
             ((System.ComponentModel.ISupportInitialize)(this.groupeBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

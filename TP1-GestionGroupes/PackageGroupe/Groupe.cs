@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace TP1_GestionGroupes.PackageGroupe
+namespace PackageGroupe
 {
     public class Groupe
     {

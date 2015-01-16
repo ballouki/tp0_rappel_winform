@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace TP1_GestionGroupes
+namespace AppStagiaires
 {
     public partial class Form1 : Form
     {
@@ -20,6 +20,11 @@ namespace TP1_GestionGroupes
         {
             PackageGroupe.FormGestionGroupes f = new PackageGroupe.FormGestionGroupes();
             f.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP0-GestionGroupes", "TP1-GestionGroupes\TP0-GestionGroupes.csproj", "{E3044FAA-0BF1-48DE-A276-B5F2EB7ACC87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStagiaires", "TP1-GestionGroupes\AppStagiaires.csproj", "{E3044FAA-0BF1-48DE-A276-B5F2EB7ACC87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

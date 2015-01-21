@@ -7,16 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace PackageGroupe
-{
-    public partial class FormGroupeUpdate : Form
-    {
+namespace PackageGroupe{
+
+    public partial class FormGroupeUpdate : Form{
+   
         public FormGroupeUpdate()
         {
             InitializeComponent();
         }
 
-        public void MiseAjour(Groupe g) {
+        public void MiseAjour(Groupe g) 
+        {
 
             idTextBox.Text = g.Id.ToString();
             nomTextBox.Text = g.Nom;
@@ -34,5 +35,7 @@ namespace PackageGroupe
         {
 
         }
+
+       
     }
 }

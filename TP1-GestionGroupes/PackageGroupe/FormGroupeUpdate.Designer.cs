@@ -1,4 +1,4 @@
-﻿namespace TP1_GestionGroupes.PackageGroupe
+﻿namespace PackageGroupe
 {
     partial class FormGroupeUpdate
     {
@@ -43,46 +43,47 @@
             // idLabel
             // 
             idLabel.AutoSize = true;
-            idLabel.Location = new System.Drawing.Point(54, 74);
+            idLabel.Location = new System.Drawing.Point(72, 91);
+            idLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             idLabel.Name = "idLabel";
-            idLabel.Size = new System.Drawing.Size(19, 13);
+            idLabel.Size = new System.Drawing.Size(23, 17);
             idLabel.TabIndex = 1;
             idLabel.Text = "Id:";
             // 
             // nomLabel
             // 
             nomLabel.AutoSize = true;
-            nomLabel.Location = new System.Drawing.Point(54, 100);
+            nomLabel.Location = new System.Drawing.Point(72, 123);
+            nomLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             nomLabel.Name = "nomLabel";
-            nomLabel.Size = new System.Drawing.Size(32, 13);
+            nomLabel.Size = new System.Drawing.Size(41, 17);
             nomLabel.TabIndex = 3;
             nomLabel.Text = "Nom:";
             // 
             // idTextBox
             // 
             this.idTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.groupeBindingSource, "Id", true));
-            this.idTextBox.Location = new System.Drawing.Point(92, 71);
+            this.idTextBox.Location = new System.Drawing.Point(123, 87);
+            this.idTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.idTextBox.Name = "idTextBox";
-            this.idTextBox.Size = new System.Drawing.Size(100, 20);
+            this.idTextBox.Size = new System.Drawing.Size(132, 22);
             this.idTextBox.TabIndex = 2;
-            // 
-            // groupeBindingSource
-            // 
-            this.groupeBindingSource.DataSource = typeof(TP1_GestionGroupes.PackageGroupe.Groupe);
             // 
             // nomTextBox
             // 
             this.nomTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.groupeBindingSource, "Nom", true));
-            this.nomTextBox.Location = new System.Drawing.Point(92, 97);
+            this.nomTextBox.Location = new System.Drawing.Point(123, 119);
+            this.nomTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nomTextBox.Name = "nomTextBox";
-            this.nomTextBox.Size = new System.Drawing.Size(100, 20);
+            this.nomTextBox.Size = new System.Drawing.Size(132, 22);
             this.nomTextBox.TabIndex = 4;
             // 
             // btMiseAjour
             // 
-            this.btMiseAjour.Location = new System.Drawing.Point(92, 136);
+            this.btMiseAjour.Location = new System.Drawing.Point(123, 167);
+            this.btMiseAjour.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btMiseAjour.Name = "btMiseAjour";
-            this.btMiseAjour.Size = new System.Drawing.Size(75, 23);
+            this.btMiseAjour.Size = new System.Drawing.Size(100, 28);
             this.btMiseAjour.TabIndex = 5;
             this.btMiseAjour.Text = "Mise à jour";
             this.btMiseAjour.UseVisualStyleBackColor = true;
@@ -90,14 +91,15 @@
             // 
             // FormGroupeUpdate
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(379, 322);
             this.Controls.Add(this.btMiseAjour);
             this.Controls.Add(idLabel);
             this.Controls.Add(this.idTextBox);
             this.Controls.Add(nomLabel);
             this.Controls.Add(this.nomTextBox);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormGroupeUpdate";
             this.Text = "FormGroupeUpdate";
             this.Load += new System.EventHandler(this.FormGroupeUpdate_Load);

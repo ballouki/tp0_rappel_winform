@@ -6,17 +6,19 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using PackageGroupe;
 
-namespace TP1_GestionGroupes.PackageGroupe
-{
-    public partial class FormGestionGroupes : Form
-    {
+namespace AppStagiaires.PackageGroupe{
+
+    public partial class FormGestionGroupes : Form{
+  
         public FormGestionGroupes()
         {
             InitializeComponent();
         }
 
-        private void Actualiser(){
+        private void Actualiser()
+        {
             groupeBindingSource.DataSource = null;
             groupeBindingSource.DataSource = GestionGroupes.Afficher();
         }
@@ -47,6 +49,11 @@ namespace TP1_GestionGroupes.PackageGroupe
             f.MiseAjour(g);
             f.ShowDialog();
             this.Actualiser();
+        }
+
+        private void groupeDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
         }
     }
 }

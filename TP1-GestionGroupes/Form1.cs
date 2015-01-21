@@ -6,11 +6,12 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using AppStagiaires.PackageGroupe;
 
-namespace AppStagiaires
-{
-    public partial class Form1 : Form
-    {
+namespace AppStagiaires{
+
+    public partial class Form1 : Form{
+    
         public Form1()
         {
             InitializeComponent();
@@ -18,7 +19,7 @@ namespace AppStagiaires
 
         private void mettreÀJourDesGroupesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            PackageGroupe.FormGestionGroupes f = new PackageGroupe.FormGestionGroupes();
+            FormGestionGroupes f = new FormGestionGroupes();
             f.Show();
         }
 
@@ -26,5 +27,7 @@ namespace AppStagiaires
         {
 
         }
+
+      
     }
 }

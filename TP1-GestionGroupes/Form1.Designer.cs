@@ -1,4 +1,4 @@
-﻿namespace TP1_GestionGroupes
+﻿namespace AppStagiaires
 {
     partial class Form1
     {
@@ -40,7 +40,8 @@
             this.gestionDesGroupesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(284, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(379, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -49,22 +50,23 @@
             this.gestionDesGroupesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mettreÀJourDesGroupesToolStripMenuItem});
             this.gestionDesGroupesToolStripMenuItem.Name = "gestionDesGroupesToolStripMenuItem";
-            this.gestionDesGroupesToolStripMenuItem.Size = new System.Drawing.Size(126, 20);
+            this.gestionDesGroupesToolStripMenuItem.Size = new System.Drawing.Size(156, 24);
             this.gestionDesGroupesToolStripMenuItem.Text = "Gestion des groupes";
             // 
             // mettreÀJourDesGroupesToolStripMenuItem
             // 
             this.mettreÀJourDesGroupesToolStripMenuItem.Name = "mettreÀJourDesGroupesToolStripMenuItem";
-            this.mettreÀJourDesGroupesToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.mettreÀJourDesGroupesToolStripMenuItem.Size = new System.Drawing.Size(234, 24);
             this.mettreÀJourDesGroupesToolStripMenuItem.Text = "Interface de mise à jour";
             this.mettreÀJourDesGroupesToolStripMenuItem.Click += new System.EventHandler(this.mettreÀJourDesGroupesToolStripMenuItem_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(379, 322);
             this.Controls.Add(this.menuStrip1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

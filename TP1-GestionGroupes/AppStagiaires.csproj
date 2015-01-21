@@ -97,6 +97,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\DataSources\PackageGroupe.Groupe.datasource" />
     <None Include="Properties\DataSources\TP1_GestionGroupes.PackageGroupe.Groupe.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

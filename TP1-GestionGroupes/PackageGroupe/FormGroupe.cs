@@ -6,17 +6,18 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using PackageGroupe;
 
-namespace TP1_GestionGroupes.PackageGroupe
-{
-    public partial class FormGroupe : Form
-    {
+namespace AppStagiaires.PackageGroupe{
+
+    public partial class FormGroupe : Form{
+    
         public FormGroupe()
         {
             InitializeComponent();
         }
 
-        private void brEnregistrer_Click(object sender, EventArgs e)
+        private void btEnregistrer_Click(object sender, EventArgs e)
         {
             Groupe g = new Groupe();
             g.Id = int.Parse(idTextBox.Text);
@@ -29,5 +30,7 @@ namespace TP1_GestionGroupes.PackageGroupe
         {
 
         }
+
+       
     }
 }

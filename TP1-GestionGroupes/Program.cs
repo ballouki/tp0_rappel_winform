@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace AppStagiaires
-{
-    static class Program
-    {
+namespace AppStagiaires{
+
+    static class Program{
+    
         /// <summary>
         /// Point d'entrée principal de l'application.
         /// </summary>

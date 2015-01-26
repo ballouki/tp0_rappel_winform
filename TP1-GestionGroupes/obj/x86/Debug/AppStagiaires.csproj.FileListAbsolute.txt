@@ -22,3 +22,5 @@ C:\Users\VANOU\Documents\GitHub\AppStagiaires\TP1-GestionGroupes\obj\x86\Debug\A
 C:\Users\VANOU\Documents\GitHub\AppStagiaires\TP1-GestionGroupes\obj\x86\Debug\AppStagiaires.csproj.GenerateResource.Cache
 C:\Users\VANOU\Documents\GitHub\tp0_rappel_winform\AppStagiaires\TP1-GestionGroupes\obj\x86\Debug\TP1-GestionGroupes.exe
 C:\Users\VANOU\Documents\GitHub\tp0_rappel_winform\AppStagiaires\TP1-GestionGroupes\obj\x86\Debug\TP1-GestionGroupes.pdb
+C:\Users\VANOU\Desktop\tp0_rappel_winform\TP1-GestionGroupes\obj\x86\Debug\TP1-GestionGroupes.exe
+C:\Users\VANOU\Desktop\tp0_rappel_winform\TP1-GestionGroupes\obj\x86\Debug\TP1-GestionGroupes.pdb
